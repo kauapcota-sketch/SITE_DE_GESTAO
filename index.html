@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login do Sistema</h1>
+    
+        <select id="inpusuario"><br><br>
+            <option value="0">Selecione o tipo de cliente</option>
+            <option value="1">vendedor</option> 
+            <option value="2">estoquista</option>
+            <option value="3">administrativo</option>
+
+        </select>
+        <input type="password" id="inpsenhas" placeholder="Senha" onkeydown="verificarEnter(event)"><br><br>
+
+        <button onclick="Entrar()" >Entrar </button>
+        
+
+
+        <p id="inpMensagem" class="msg"></p>
+</body>
+<script src="script.js"></script>
+</html>
