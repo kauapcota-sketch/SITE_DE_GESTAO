@@ -35,7 +35,6 @@ function Entrar() {
 }
 function verificarEnter(event) {
     if (event.key === "Enter") {
-        alert("você apertou enter");
         Entrar();
     }
 }

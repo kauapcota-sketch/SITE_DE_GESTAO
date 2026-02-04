@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(1deg, #1900ff, #00c8ff, rgb(255, 255, 255));
+    background: linear-gradient(11200deg, #1900ff, #00c8ff, rgb(255, 255, 255));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
     background: #ffffff;
     padding: 25px 30px;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 30px 25px rgba(0, 0, 0, 0.1);
     width: 320px;
     text-align: center;
 }
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-        background: #0e2ac7;
+        background: #1900ff;
     }
 
 .msg {
